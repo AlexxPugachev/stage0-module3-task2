@@ -6,7 +6,7 @@ public class advancedNamingConvention {
     private int AGE;
     AGE = 18;
     private int phoneNumber;
-    phoneNumber = 66566656566;
+    int phoneNumber = 66566656566;
 
     void CAllToFriend(String[] args) {
         int i;
@@ -15,6 +15,8 @@ public class advancedNamingConvention {
     }
 
     void callByNumber(String[] args) {
-        callByNumber(phoneNumber);
+        int phonenumber;
+        phonenumber = 66566656566;
+        callByNumber(int phoneNumber);
     }
 }
