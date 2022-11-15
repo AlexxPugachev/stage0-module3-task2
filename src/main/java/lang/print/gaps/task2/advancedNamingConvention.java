@@ -4,16 +4,17 @@ public class advancedNamingConvention {
     private static final int adult_age = 18;
 
     private int AGE;
+    AGE = 18;
     private int phoneNumber;
+    phoneNumber = 66566656566;
 
-    void CAllToFriend() {
-        int friend = 23;
-        CAllToFriend(int friend);
-
+    void CAllToFriend(String[] args) {
+        int i;
+        i = 32;
+        CAllToFriend(int i);
     }
 
-    void callByNumber(int Number) {
-        int number = 5454545455;
-        callByNumber(int number);
+    void callByNumber(String[] args) {
+        callByNumber(phoneNumber);
     }
 }
